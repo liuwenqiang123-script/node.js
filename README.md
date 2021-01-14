@@ -3,4 +3,4 @@
 端口号为3000在浏览器请打开http://localhost:3000/admin/login.html
 账号:admin。
 密码：admin。
-欢迎提出宝贵意见会看谢谢。
+欢迎提出宝贵意见会看谢谢。o((≧▽≦o)
