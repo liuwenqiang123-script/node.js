@@ -1,0 +1,13 @@
+.basic{border:1px solid #dddddd;overflow:hidden;padding:15px; text-align:center}
+.basic h1.title{margin:0px 0px 10px 0px;color:#333333;}
+
+.basic  ul{ background:url(../image/baoming_img.jpg) no-repeat right bottom;background-color:#F8F8F8;padding:10px;border-radius:5px;margin:0 auto;width:600px;}
+.basic ul li{line-height:30px;color:#999999;border:1px solid #eeeeee;width:300px;margin:15px 15px;background:#ffffff;font-size:12px;text-align:center;}
+.basic ul li span{width:45px;display:inline-block}
+.basic ul li input.input_box{font-size:12px;border:none;outline:medium;width:230px;}
+.basic ul li.btn{background:none;border:none; padding:0px}
+.basic ul li.btn .submit{border:none;background-color:#ff6600;color:white;font-size:24px;padding:5px 25px;border-radius:3px;}
+
+.basic ul li.textarea span{line-height:30px;float:left;padding-left:13px;}
+.basic ul li textarea{font-size:12px;border:none;outline:medium;width:230px;margin:5px 0px 0px 0px;}
+.basic ul li select{width:230px;border:none; outline:medium;font-size:14px;padding:2px;}

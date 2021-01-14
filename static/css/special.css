@@ -1,0 +1,65 @@
+div.box{border:1px solid #dddddd;padding:10px;overflow:hidden}
+h1{text-align:center;border-bottom:1px dashed #dddddd;margin:0px;line-height:30px;border-top-left-radius:3px;border-top-right-radius:3px;padding:15px;background-color:#eeeeee;}
+p{margin:0px;padding:0px 0px 10px 0px;}
+div.content{padding:15px;line-height:25px;color:#777777;border:1px solid #dddddd;overflow:hidden;border-top:none}
+
+dd.area{background-color:#f1f1f1;line-height:30px;padding-left:10px;}
+
+dt.box_head {font-size:16px;margin:15px 0px 0px 0px;}
+dt.box_head a{color:#007aff;}
+dd.box_body{border:1px solid #dddddd;overflow:hidden;border-top:none}
+dd.box_body ul.thumb{padding:0px 0px 0px 10px;float:left;overflow:hidden}
+dd.box_body ul.thumb li{float:left;margin:14px;text-align:center;padding-bottom:5px;width:120px;white-space:nowrap;overflow:hidden}
+dd.box_body ul.thumb li img{width:120px;height:120px}
+dd.box_body ul.txt{width:31%;margin:10px 1%;float:left;overflow:hidden}
+dd.box_body ul.txt li {line-height: 30px;width:100%;float: left;margin-left: 18px;list-style: disc;font-size: 14px; white-space:nowrap;}
+dd.box_body ul.txt li.item_cat{list-style:none; background-color:#f1f1f1;margin:10px 0px 0px 0px;text-indent:10px;}
+dd.box_body ul.txt li.item_cat a{color:#007aff;font-weight:bold}
+
+dt.thumb_head{background-color:#f6f6f6;border-top:3px solid #ca1313;border-right:1px solid #dddddd;}
+dt.thumb_head strong{background-color:#ca1313;line-height:35px;display:inline-block;text-align: center;color: white;padding:0px 10px;}
+dd.thumb{padding:15px  0px 0px 0px;overflow:hidden;}
+dd.thumb ul{width:110%}
+dd.thumb li{float:left;margin-right:13px;margin-bottom:10px}
+dd.thumb li img{border-radius:0px;}
+
+.type_list{margin:20px 0px 0px 0px;border-radius:5px;background-color:#f6f6f6;padding:10px;}
+.type_list ul{ background-color:#FFFFFF;padding:5px;border-radius:5px;}
+.type_list li{padding:10px 0px 0px 0px;border-bottom:1px dashed #dddddd;line-height:30px;}
+.type_list li:hover{background-color:#fcfcfc;}
+
+.catlist{border:1px solid #dddddd;}
+.catlist h2{margin:0px 0px 10px 0px; padding:0px}
+.catlist ul{ background-color:#FFFFFF;padding:0px;border-radius:5px;}
+.catlist li{padding:15px 10px 5px 10px;border-bottom:1px dashed #dddddd;overflow:hidden;line-height:28px;}
+.catlist li b{font-size:20px}
+.catlist li img{float:left;margin:0px 15px 0px 0px}
+.catlist li span{display:block;color:#999999;font-weight:normal}
+.catlist li p{margin:0px; padding:5px 0px 10px 0px;color: #777777;}
+.catlist li:hover{background-color:#eeeeee;}
+.catlist li a:hover{text-decoration:none;color:#333333;}
+
+dd.category{border-radius:5px;margin:10px 0px 0px 0px;background-color:#f1f1f1;}
+dd.category a{display:inline-block;margin-left:15px;line-height:30px;font-size:14px}
+
+ul.hot_major{margin:0px;border:1px solid #dddddd;overflow:hidden}
+ul.hot_major li{width:48.5%;padding:10px 0px;border-bottom:1px dashed #999999}
+ul.hot_major li.f_l{border-right:1px dashed #999999;padding-right:10px;}
+ul.hot_major li.f_r{padding-right:8px}
+ul.hot_major li:hover{background-color:#f5f5f5}
+ul.hot_major div.list_title{margin-left:10px;overflow:hidden;margin-top:5px;width:310px;}
+ul.hot_major div.list_title a{font-size:16px;font-weight:bold;color:#007aff;padding-top:2px;display:inline-block}
+ul.hot_major div.list_title p{margin:0px;line-height:25px;white-space: nowrap;font-size:14px}
+ul.hot_major div.list_title p a{color:#999999;font-size:14px}
+ul.hot_major div.list_title a:hover{color:#ff6600}
+ul.hot_major li div.f_r{line-height:28px;text-align:center;padding-top:10px;}
+ul.hot_major li div.f_r a{background-color:#ff6600;color:white;display:inline-block;padding:0px 10px;border-radius:3px;}
+
+.sbaoming{background:#F8F8F8 url(../image/bm.png) no-repeat -2px -2px;border-radius:5px;overflow:hidden;margin:10px 0px;}
+.sbaoming ul{width:100%;padding:10px;margin:20px 0px 0px 0px;}
+.sbaoming ul li{line-height:30px;color:#999999;border:1px solid #eeeeee;width:240px;margin:10px 0px 10px 40px;padding:0px 0px 0px 5px;background:#ffffff;font-size:12px;float:left}
+.sbaoming ul li span{width:45px;display:inline-block}
+.sbaoming ul li input.input_box{font-size:12px;border:none;outline:medium;width:180px;}
+.sbaoming ul li.btn{background:none;border:none; padding:0px}
+.sbaoming ul li.btn .submit{border:none;background-color:#ff6600;color:white;font-size:24px;padding:5px 25px;border-radius:3px;}
+.sbaoming ul li select {width: 180px;border: none;outline: medium;font-size: 14px;padding: 2px;}

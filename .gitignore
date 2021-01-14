@@ -1,0 +1,6 @@
+node_modules
+./app1/node_modules
+*.py
+*.co
+/dist
+build

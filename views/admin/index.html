@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #header{
+            height:17vh;
+            /* background-color: slateblue; */
+            background-image: url("/images/7.jpg");
+        }
+        #main{
+            height: 83vh;
+        }
+        #main .menu{
+            background:url("/images/0.jpg") ;
+            overflow: auto;
+        }
+        #main > div,
+        #main > div > div
+        
+        {
+            height: 100%;
+        }
+        iframe{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+             top: 5%; 
+        right: -5%; 
+
+        }
+        #right{
+            position:relative;
+        }
+        #header .avater{
+            height: 100px;
+            float: left;
+        }
+        #header .avater img{
+            height: 100%;
+        }
+        /* #header .info{
+            float: left;
+        } */
+        .btn{
+            float:right;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid" id = "header">
+<div class="avater">
+    <img src="/images/10.jpg" alt="" class="img-circle">
+</div>
+<div class="info pull-left">
+欢迎拖拉机：{{admin.admin_name}}
+</div>
+<a href="/admin/logout" class="btn btn-danger pull-right" onclick="return confirm('确认注销？')">注销</a>
+    </div>  
+    <div id = "main" class="container-fluid">
+        <div class="row">
+            <div class="col-sm-2 menu">
+                <h3>管理员</h3>
+                <ul class="nav nav-tabs">
+
+                    <li role="presentation" class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                            管理员 <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/admin/admin_list.html" target="iFrame">查询管理员</a> </li>
+                            <li><a href="/admin/admin_list.html" target="iFrame">添加管理员</a></li>
+                            <li><a href="/admin/password.html" target="iFrame">修改密码</a> </li>
+                            <li><a href="/admin/admin_list.html" target="iFrame">删除管理员</a> </li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+
+
+                <h3>分类</h3>
+                <ul class="nav nav-tabs">
+
+                    <li role="presentation" class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                            分类 <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/admin/admin_list.html" target="iFrame">导航列表</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <h3>新闻</h3>
+                <ul class="nav nav-tabs">
+
+                    <li role="presentation" class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                            新闻 <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/admin/admin_list.html" target="iFrame">新闻列表</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+                <h3>产品</h3>
+                <ul class="nav nav-tabs">
+
+                    <li role="presentation" class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                           产品  <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/admin/admin_list.html" target="iFrame">产品列表</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+                <h3>单页</h3>
+                <ul class="nav nav-tabs">
+
+                    <li role="presentation" class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                            单页  <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/admin/admin_list.html" target="iFrame">单页列表</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+                 
+            </div>
+            <div class="col-sm-10" id="right">
+                <iframe src="/admin/main.html" frameborder="0" name="iFrame"></iframe>
+            </div>
+        </div>
+    </div> 
+    
+    <script src = "/jquery/jquery.js"></script>
+    <script src = "/bootstrap/js/bootstrap.js"></script>
+</body>
+</html>  

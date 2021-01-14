@@ -1,0 +1,25 @@
+let d = new Date();
+var storage = multer.diskStorage({
+  //创建配置选项
+	// destination: function (req, file, cb) {
+    // let d = new Date();
+  //   cb(null, 'public/uploads' + d.getFullYear() + (d.getMonth() + 1) + d.getDate());
+  //   // console.log(file.fieldname);
+  //   // console.log(file.originalname);
+  //   // console.log(file);
+  // },
+  destination:'./public/uploads' + d.getFullYear() + (d.getMonth() + 1) + d.getDate(),
+  //文件夹路径
+	filename: function (req, file, cb) {
+    let extName = path.extname(file.originalname);
+    //原始 后缀
+		console.log(extName);
+    cb(null, file.fieldname + "-" + Date.now() + extName);
+    //文件域名字
+    console.log(file.filename);
+	},
+});
+//上传文件名
+
+var upload = multer({ storage: storage });
+//

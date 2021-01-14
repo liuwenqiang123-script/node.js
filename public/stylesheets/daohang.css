@@ -1,0 +1,13 @@
+.list{
+    border-top: orange 3px solid;
+    border-bottom: #eee 1px solid;
+    /* padding-top: 1px; */
+}
+.list li{
+    display: inline-block;
+    list-style: none;
+    padding:10px 20px; 
+}
+.list li:hover{
+    background-color:#ddd ;
+}

@@ -1,0 +1,44 @@
+body, p, h1, h2, h3, h4, h5, h6, ul, ol, dl, dt, dd, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #666666;
+}
+
+a, strong, em, i, s {
+    text-decoration: none;
+    font-weight: 400;
+    color: #666666;
+}
+
+a:hover {
+    color: #ff0000;
+}
+
+img, input {
+    border: 0 none;
+    outline-style: none;
+    margin: 0;
+    padding: 0;
+    /*    基线对齐*/
+    vertical-align: middle;
+}
+/*版心*/
+.w {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

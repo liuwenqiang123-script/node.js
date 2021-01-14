@@ -1,0 +1,90 @@
+.banner-center {
+    width: 720px;
+    height: 454px;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner-center img {
+    width: 720px;
+    height: 454px;
+}
+
+.banner-center .content {
+    width: 3600px;
+    height: 454px;
+    position: absolute;
+}
+
+.banner-center .content .item {
+    float: left;
+}
+
+/* button start*/
+
+.banner-center .btn {
+    position: absolute;
+    width: 30px;
+    height: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(41, 34, 34, 0.4);
+    text-align: center;
+    color: #ffffff;
+    display: none;
+
+}
+
+.banner-center .btn-left {
+    left: 0;
+}
+
+.banner-center .btn-right {
+    right: 0;
+}
+
+.banner-center:hover .btn {
+    display: block;
+}
+
+/*点点*/
+
+.banner-center ul {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+
+    transform: translateX(-50%);
+}
+
+
+.banner-center li {
+    width: 8px;
+    height: 8px;
+    border: 1px solid #666666;
+    border-radius: 50%;
+    float: left;
+    margin-left: 20px;
+}
+
+.banner-center li.active {
+    background: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+let d = new Date();
+var stroage = multer.diskStorage({
+创建配置项
+destination: function(req,file,cb){
+    let d = new Date();
+    cb(null,'public/uploads' + d.getFullYear() + (d.getMouth() + 1) +d.getData());
+},
+destination:'./public/uploads' + d.getFullYear() + (d.getMouth() + 1) + d.getData(),
+filename:function(req,file.,cb){
+    let extName         =  path.extName(file.originlname);
+    cb(null,file.filename + '-' Date.now()  + extName);
+
+},
+});
+var upload = multer({stroage:stroage}); 

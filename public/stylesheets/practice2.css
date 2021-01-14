@@ -1,0 +1,71 @@
+.banner{
+    width: 720px;
+    position: relative;
+    overflow: hidden;
+    height: 455px;
+}
+
+.content{
+    width: 3600px;
+    height: 455px;
+    position: absolute;
+}
+.content div{
+    float: left;
+    width:720px;
+}
+.btn{
+    position: absolute;
+    width: 100%;
+    top: 40%;
+
+}
+.btn .btn-right{
+    float: right;
+    width : 70px;
+    height : 70px;
+    background-color: red;
+    line-height: 70px;
+    text-align: center;
+    font-size: 50px;
+}
+.btn .btn-left{
+    float: left;
+    width : 70px;
+    height : 70px;
+    background-color: red;
+    line-height: 70px;
+    text-align: center;
+    font-size: 50px;
+}
+.btn a{
+    text-decoration: none;
+}
+
+
+.point{
+    left: 35%;
+    bottom: 0;
+    position: absolute;
+
+}
+.point li{
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    border : 3px white solid;
+    list-style: none;
+    float: left;
+    margin-right: 25px;
+}
+/*.clearfix::before,*/
+/*.clearfix::after{*/
+/*    content: " ";*/
+/*    display: block;*/
+/*    height: 0;*/
+/*    visibility: hidden;*/
+/*    clear: both;*/
+/*}*/
+.active{
+    background-color: blue;
+}

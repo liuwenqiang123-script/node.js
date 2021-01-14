@@ -1,0 +1,78 @@
+h1.title{text-align:center;color:#555555;margin:0px 0px 5px 0px;padding:0px;}
+#info{text-align:center;color:#999999;margin:0px;padding:5px 0px 0px 0px;}
+dd.article_show{border:1px solid #dddddd;overflow:hidden;border-top-left-radius:3px;border-top-right-radius:3px;padding:10px 20px;}
+dd.article_show .slide{margin-top:10px}
+
+.curProvinceCity{background-color:#f5f5f5;line-height:33px;text-indent:10px;}
+#content{line-height:22px;overflow:hidden;color:#666666;margin:10px 0px;}
+#content h2{color:#007aff;font-size:16px;clear:both}
+#content a{color:#007aff;}
+#content a:hover{color:#ff6600;}
+#content img{max-width:100%}
+#content table{width:100%;line-height:35px;border:1px solid #dddddd;}
+#content table th{background-color:#eeeeee;color:#333333}
+#content table td{border-top:1px solid #dddddd;border-left:1px solid #dddddd;text-align:center;line-height:35px;}
+#content table tr:hover{background-color:#eeeeee}
+
+.area-cat{overflow:hidden;border:1px solid #dddddd;border-top:2px solid #ca1313;padding:0px 0px 5px 0px;}
+.area-cat h2{background-color:#f6f6f6;font-size:14px;font-weight:normal;margin:0px 0px 5px 0px;}
+.area-cat h2 span{background-color: #ca1313;padding: 7px 10px 9px 15px;color: white;display: inline-block;margin:0px;}
+.area-cat a{float:left;width:149px;line-height:30px;color:#007aff;text-align:center;}
+
+dd.about{margin:15px 0px 0px 0px;border:1px solid #dddddd;overflow:hidden;padding:0px;}
+dd.about h2{background-color:#f6f6f6;color:#999999;font-weight:normal;margin:0px;padding:0px;line-height:35px;text-indent:10px;font-size:16px}
+
+ul.intro_list{overflow:hidden;padding:0px;}
+ul.intro_list li{padding:10px 10px 0px 10px;border-bottom:1px dashed #dddddd;overflow:hidden}
+ul.intro_list li div.f_l{width:80%}
+ul.intro_list li div.f_r{background-color:#fff9d7;display:inline-block;padding:10px 5px;border-radius:3px;color:#ef9445;font-weight:bold;text-align:center;line-height:25px;font-size:14px;margin:15px 0px 0px 0px;}
+ul.intro_list li a{font-weight:bold;line-height:20px;font-size:16px;color:#007aff}
+ul.intro_list li p{margin:0px; padding:5px 0px 10px 0px;color:gray;line-height:22px;}
+ul.intro_list li:hover{background-color:#fffcee;}
+
+.catlist{border:1px solid #dddddd;}
+.catlist h2{margin:0px 0px 10px 0px; padding:0px}
+.catlist ul{ background-color:#FFFFFF;padding:0px;border-radius:5px;}
+.catlist li{padding:15px 10px 5px 10px;border-bottom:1px dashed #dddddd;overflow:hidden;line-height:28px;}
+.catlist li b{font-size:20px;}
+.catlist li img{float:left;margin:0px 15px 0px 0px}
+.catlist li span{display:block;color:#999999;font-weight:normal}
+.catlist li p{margin:0px; padding:5px 0px 10px 0px;color: #777777;}
+.catlist li:hover{background-color:#eeeeee;}
+.catlist li a:hover{text-decoration:none;color:#333333;}
+
+dt.category_title{ background-color:#f6f6f6;;margin:0;padding:0;line-height:35px;border:1px solid #dddddd;border-bottom:none;text-indent:10px;font-size:16px;font-weight:bold}
+dd.category{border:1px solid #dddddd;border-top:none;margin:0px 0px 20px 0px;padding:10px;}
+dd.category a{display:inline-block;margin-right:15px;line-height:30px;font-size:14px}
+
+.nav_menu{border:1px solid #dddddd;background-color:#F7F7F6;overflow:hidden;margin:0px 0px 0px 0px;}
+.nav_menu h1{text-indent:10px;margin:10px 0px;}
+.nav_menu ul{border-bottom:2px solid #f4674b;overflow:hidden;line-height:35px;}
+.nav_menu ul li{float:left;margin:0px 0px 0px 5px;padding:0px 8px 0px 8px;font-size:16px;border-top-left-radius:3px;border-top-right-radius:3px;}
+.nav_menu ul li.nav_menu_on{background-color:#f4674b;}
+.nav_menu ul li.nav_menu_on a{color:#ffffff}
+.nav_menu ul li:hover{background-color:#f4674b;}
+.nav_menu ul li:hover a,.nav_menu ul li a:hover{background-color:#f4674b;color:#ffffff}
+.nav_menu a.cityname{font-size:14px;font-weight:bold;color:#0033FF;float:left;width:50px;text-align:center;line-height:28px;}
+.nav_menu a.cityname_on{color:#333333}
+
+table.zy_shuxing{width:100%;border:1px dotted #FF9600;background-color:#FFF8EA;padding:10px;}
+table.zy_shuxing td{font-size:14px;line-height:25px;}
+
+ul.school_list{border-right:1px solid #dddddd;overflow:hidden;border-bottom:1px solid #dddddd;}
+ul.school_list li{float:left;width:33%;color:#999999;line-height:35px;border-left:1px solid #dddddd;border-top:1px solid #dddddd;text-indent:10px;}
+
+dd.user_list{border:1px solid #e9e9e9;overflow:hidden; border-top:none}
+dd.user_list li{padding:15px 20px 10px 20px;border-top:1px solid #e9e9e9;height:120px;overflow:hidden}
+dd.user_list li.f_l{padding-right:10px;}
+dd.user_list li.f_r{padding-left:5px}
+dd.user_list li:hover{background-color:#fffcee}
+dd.user_list li div.f_r{line-height:28px;text-align:center;padding-top:10px;}
+dd.user_list li div.f_r a{background-color:#ff6600;color:white;display:inline-block;padding:0px 10px;border-radius:3px;}
+dd.user_list div.list_title{margin-left:10px;width:600px;overflow:hidden;margin-top:5px;}
+dd.user_list div.list_title a{font-size:16px;font-weight:bold;color:#007aff;padding-top:2px;display:inline-block}
+dd.user_list div.list_title p{margin:0px;line-height:25px;white-space: nowrap;}
+dd.user_list div.list_title p a{font-size:14px;color:#999999;}
+dd.user_list div.list_title a:hover{color:#ff6600}
+
+.news-about li{float:left;width:100%}

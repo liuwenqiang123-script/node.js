@@ -1,0 +1,1 @@
+var DTPath = "https://www.bangboer.net/";var SKPath = "https://www.bangboer.net/skin/zhaosheng/";var MEPath = "https://www.bangboer.net/member/";var DTEditor = "fckeditor";var CKDomain = ".bangboer.net";var CKPath = "/";var CKPrex = "DBc_";

@@ -1,0 +1,84 @@
+.nav a{color:#000000}
+.nav a:hover{color:#ff6600}
+.modTop{position:relative;}
+.modTop .nav{padding-left:305px;height:3pc;background:#fff}
+.modTop .nav li{float:left;margin-right:20px;font-size:18px;line-height:3pc}
+.modTop .left_nav{position:absolute;z-index:30;border:1px solid #d3d2d2;background:#f7f7f7;opacity:.9;border-bottom:none}
+.modTop .left_nav li{box-sizing:border-box;height:70px;background:url(../image/icon1.png) 260px -426px no-repeat;border-bottom:1px solid #e4e4e4;padding:8px 0 0 15px}
+.modTop .left_nav li p{margin:0;color:#000;font-size:16px;line-height:30px}
+.modTop .left_nav li a{margin-right:10px;color:#666;font-size:12px}
+.modTop .left_nav li:hover{background:#ddd url(../image/icon1.png) 260px -426px no-repeat}
+.modTop .left_nav li.f_lTitle{height:3pc;background:#0c9bee url(../image/icon1.png) 15px 15px no-repeat;color:#fff;text-align:center;text-indent:10px;font-size:20px;line-height:33px}
+.modTop>ul{margin-top:20px;text-align:right}
+.modTop>ul li{display:inline-block;margin-left:20px}
+.modTop .banner{position:relative;height:25pc}
+.modTop .banner li{position:absolute;width:100%;height:100%}
+.modTop .banner li a{width:100%;height:100%;display:block}
+.banner .indicator{position:absolute;bottom:1px;left:0;z-index:20;width:100%;text-align:center}
+.banner .indicator a{display:inline-block;margin:5px;width:10px;height:10px;border-radius:50%;background:#ccc}
+.indicator a.cur{background:#157fd4}
+
+.tui{height:150px;border:1px solid #ddd}
+.tui p{float:left;box-sizing:border-box;margin:0;padding:25px 7px 0 20px;width:60px;height:100%;background:#f96767;color:#fff;font-size:20px}
+.tui b{display:block;margin:20px 0 0 5pc;font-size:24px;font-weight:bold;color:#000}
+.tui span{display:block;margin:20px 0 0 5pc;width:45pc;font-size:14px;line-height:24px;color:#444}
+.tui span a{color:#f96767}
+.tui img{margin:22px 20px 0 0}
+
+.main{margin-top:40px}
+.main .title{text-align:right;height:40px}
+.main h3 b{display:inline-block;margin:14px 0 0 10px;box-sizing:border-box;font-size:16px;line-height:16px}
+.main h3 b{border-right:none;font-size:34px;font-weight:400}
+.main h3 i{width:55px;border:1px solid #333;display:inline-block;vertical-align:9px}
+.main .title h3 span{margin:0 0 0 10px;color:#9a9a9a;font-size:20px;font-weight:400;vertical-align:2px}
+.main .title a{display:inline-block;margin:15px 0 0 6px;font-size:16px}
+.main .school{margin-top:25px;height:456px;background:#f5f5f5}
+.main .school .left{position:relative;float:left;box-sizing:border-box;padding-top:40px;width:200px;height:100%;background:#007aff;color:#fff;font-size:18px}
+.main .school .left p{margin:0 0 20px 20px;height:35px;border:1px solid #fff;border-right:none;text-align:center;line-height:35px;cursor:pointer}
+
+.main .school .left p.tab1_2,.main .school .left p.tab2_2,.main .school .left p.tab3_2,.main .school .left p.tab4_2,.main .school .left p.tab5_2{background:#f5f5f5;color:#242424;transition:all linear .2s}
+
+.main .school .left .province{position:absolute;bottom:60px;left:9pt}
+.main .school .left .province li{float:left;margin-left:8px;font-size:14px}
+.main .school .left .province li>a{color:#fff;line-height:30px}
+.main .school .left .button{position:absolute;bottom:0;width:100%;height:40px;color:#fff;text-align:center;line-height:40px;background:#4fa9f4}
+.main .school .left .button i{display:inline-block;width:24px;height:24px;background:url(../image/icon1.png) 0 -32px no-repeat;vertical-align:middle}
+#F2 .left{background:#343a90}
+#F2 .left .button{background:#686ebb}
+#F3 .left{background:#fc7575}
+#F3 .left .button{background:#fba2a2}
+#F4 .left{background:#91653c}
+#F4 .left .button{background:#b78a61}
+#F5 .left{background:#9f51a2}
+#F5 .left .button{background:#be70c1}
+.main .school .left li.button a{color:#fff;font-size:14px}
+.main .school .middle{position:absolute;float:left;margin-top:34px;margin-left:240px}
+.main .school .middle li{float:left;box-sizing:border-box;margin-right:35px;padding:22px;text-align:center;width:300px;height:380px;border-radius:0;background:#fff;box-shadow:0 0 10px #b6b5b5;position:relative;border-bottom:5px solid #ccc}
+#F1 .school .middle li:hover{border-color:#007aff}
+#F2 .school .middle li:hover{border-color:#343a90}
+#F3 .school .middle li:hover{border-color:#fc7575}
+#F4 .school .middle li:hover{border-color:#91653c}
+#F5 .school .middle li:hover{border-color:#9f51a2}
+.main .school .middle li p{font-size:20px;margin-bottom:5px;margin-top:10px;font-weight:bold;white-space:nowrap;overflow:hidden}
+.main .school .middle li img{border-radius:100%}
+.main .school .middle li span{display:block;font-size:14px;line-height:22px;height: 70px;overflow: hidden;text-align:left;color:#999999;}
+.main .school .middle li span a{color:#606060}
+.main .school .middle li a.btn{width:90pt;height:40px;border-radius:5px;background:#fd5f5f;color:#fff;text-align:center;line-height:40px;margin-top:10px;position:absolute;bottom:32px;left:20px}
+.main .school .middle li a:nth-child(5){margin-right:0;background:#169bd5;left:158px}
+.main .school .right{float:right;margin:30px 35px 0 0}
+.main .school .right b{display:inline-block;margin-right:42px;height:28px;border-bottom:2px solid transparent;color:#000;font-size:18px;font-weight:400;cursor:pointer}
+
+.main .school .right b.tab11_2,.main .school .right b.tab22_2,.main .school .right b.tab33_2,.main .school .right b.tab44_2,.main .school .right b.tab55_2{border-bottom:2px solid #0c9bee;color:#0c9bee;text-decoration:none}
+
+.main .school .right .news_l{position:absolute;margin-top:18px}
+.main .school .right .news_l li{margin-bottom:14px;height:22px;box-sizing:border-box}
+.main .school .right .news_l li i{display:inline-block;width:22px;height:22px;background:url(../image/icon1.png) 0 -75px no-repeat;vertical-align:middle;margin-right:10px}
+.main .school .right .news_l li:nth-child(2) i{background-position: 0 -108px}
+.main .school .right .news_l li:nth-child(3) i{background-position: 0 -144px}
+.main .school .right .news_l li:nth-child(4) i{background-position: 0 -182px}
+.main .school .right .news_l li:nth-child(5) i{background-position: 0 -219px}
+.main .school .right .news_l li:nth-child(6) i{background-position: 0 -256px}
+.main .school .right .news_l li:nth-child(7) i{background-position: 0 -293px}
+.main .school .right .news_l li:nth-child(8) i{background-position: 0 -331px}
+.main .school .right .news_l li:nth-child(9) i{background-position: 0 -368px}
+.main .school .right .news_l li:nth-child(10) i{background-position: 0 -406px}
